@@ -1,0 +1,14 @@
+plugins{
+    id 'org.springframework.boot' version '2.3.0.RELEASE'
+    id ' io.spring.dependency-management' version '1.0.9.RELEASE'
+    ID 'java'                   
+}
+repositories{//repositório de dados
+    jcenter()
+}
+depencies{
+    implementation 'org.springframework.boot:sprint-boot-started-web'
+    implementation 'org.springframework.boot:sprint-boot-started-data-jpa'
+    implementation 'mysql:msql-connector-java'
+    implementation ''org.apache.tomcat.embed:tomcat-embed-jasper'
+}
